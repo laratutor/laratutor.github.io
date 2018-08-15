@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i');
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script:300');
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    color: #484848;
+    background-image: -webkit-linear-gradient(30deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: -o-linear-gradient(30deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+h1 {
+    font-family: 'Overpass', sans-serif;
+    color: #FFFFFF;
+}
+
+#headline {
+    text-shadow: 2px 2px #AAA;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.btn-orange {
+    background-color: #ffc65a;
+    color: #555555;
+    font-weight: 900;
+}
+
+.btn-orange:hover {
+    background-color: #eeba58;
+}
+
+#title {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+}
+
+.paragraph {
+    font-size: larger;
+    line-height: 48px;
+}
+
+.school {
+    font-size: 220px;
+}
+
+.avatar {
+    width: 150px;
+    height: auto;
+    border-radius: 1000px;
+}
+
+.no-underline {
+    text-decoration: none !important;
+}
+
+.testimonials {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 70px !important;
+    margin-bottom: 70px !important;
+}
+
+.testimonials div {
+    margin-bottom: 10px;
+}
+
+.carousel-inner {
+    height: 350px !important;
+}
+
+.carousel-item {
+    font-size: smaller !important;
+    padding-left: 125px !important;
+    padding-right: 125px !important;
+}
+
+.testimonial-name {
+    font-size: x-large;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}

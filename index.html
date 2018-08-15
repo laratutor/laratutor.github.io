@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Laratutor.com</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-center py-4 mb-5 rounded" id="header">
+            <div class="col-md-10 mx-auto mb-5">
+                <h1 id="title" class="mb-5 p-3">
+                    Laratutor.com
+                </h1>
+
+                <h1 class="display-4 mb-5" id="headline">
+                    Are you new to Laravel and looking for personalized help?
+                </h1>
+
+                <button class="btn btn-lg mt-5 p-4 btn-orange" id="email-us">
+                    Email us and we'll work something out
+                </button>
+            </div>
+        </div>
+
+        <div class="col-md-12 p-5 paragraph bg-light rounded">
+            <div class="mb-5">Sometimes the documentation and other resources available online just don't cut it and people need something a little more hands on or 1-on-1.</div>
+
+            <div class="mb-5 text-justify">We will work with you on your project or one of ours, and through pair programming help you grow both your skills and your confidence.</div>
+
+
+            <div class="testimonials mb-5 text-secondary text-justify">
+                <div class="row mb-3 d-flex align-items-center">
+                    <div class="col-8">
+                        <i class="fa fa-quote-left pr-1"></i>
+                        Over multiple sessions I have learned a ton. I learned the importance of
+                        testing via TDD as well as cleaning your code up using some of Laravel's
+                        features, such as like Collections. I had a lot of fun in these sessions
+                        and learned a lot. I fully recommend this.
+                        <i class="fa fa-quote-right pl-1"></i>
+                    </div>
+                    <div class="col-4 testimonial-name">Julien G.</div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="offset-2 col-8"><hr></div>
+                </div>
+
+                <div class="row mb-3 d-flex align-items-center">
+                    <div class="col-4 testimonial-name pl-1">Harry H.</div>
+                    <div class="col-8">
+                        <i class="fa fa-quote-left pr-1"></i>
+                        This was one of the best tech/learning decisions I've made. Previously a WordPress theme and plugin developer, I was hired as a Software Engineer at a new company with 6 months of light mentorship here and there. Laratutor helped fast track me by helping me understand the deeper concepts and the best ways to go about solving problems.
+                        <i class="fa fa-quote-right pl-1"></i>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="offset-2 col-8"><hr></div>
+                </div>
+
+                <div class="row mb-3 d-flex align-items-center">
+                    <div class="col-8">
+                        <i class="fa fa-quote-left pr-1"></i>
+                        I’ve learned a lot of things about Laravel while working with Laratutor;
+                        eager loading vs lazy loading to fix some crazy N+1 problems, really getting
+                        the most out of Laravel’s Collection library, and some of the more nuanced
+                        details about testing. However, the biggest takeaway for me is how much more
+                        confident I am in my design decisions. We’ve spent a lot of time talking about
+                        what makes sense and what doesn’t, where to put things, and how to name them.
+                        You’re not just going to learn how to mindlessly build another CRUD app, but
+                        instead how to think like a software engineer.
+                        <i class="fa fa-quote-right pl-1"></i>
+                    </div>
+                    <div class="col-4 testimonial-name">Glenn K.</div>
+                </div>
+            </div>
+
+
+        <div class="text-center p-5 bg-dark mb-2 text-white small rounded" id="email">
+            <p class="mb-5">Email us a short description of what areas you are looking for help and we'll work something out.</p>
+
+            <div class="row">
+                <div class="col-lg-6 mb-5 d-none d-lg-block">
+                    <i class="fa fa-school school"></i>
+                </div>
+
+                <div class="col-lg-6">
+                    <form action="https://formspree.io/support@laratutor.com" method="POST">
+                        <input type="hidden" name="_subject" value="Laratutor Help">
+
+                        <div class="form-group row">
+                            <label for="name" class="col-sm-4 col-form-label text-right">Name</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" name="name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-4 col-form-label text-right">Email</label>
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-4 col-form-label text-right">How can I help?</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" name="description" rows="5" required></textarea>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-block btn-warning">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-5 small text-secondary">
+            &copy 2018 Laratutor.com
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        $('#email-us').on('click', function () {
+            $(document).scrollTop( $("#email").offset().top );
+        });
+    </script>
+</body>
+</html>
